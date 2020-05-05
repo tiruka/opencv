@@ -4,8 +4,8 @@ import cv2
 import numpy as np
 
 
-img = cv2.imread('img/dolphin.jpeg')
-img_gray = cv2.imread('img/dolphin.jpeg', 0)
+img = cv2.imread('src/dolphin.jpeg')
+img_gray = cv2.imread('src/dolphin.jpeg', 0)
 
 # Harris
 img_harris = deepcopy(img)

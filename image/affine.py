@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img = cv2.imread('img/dolphin.jpeg', 0)
+img = cv2.imread('src/dolphin.jpeg', 0)
 h, w = img.shape[:2]
 dx, dy = 30, 30
 

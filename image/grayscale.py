@@ -1,7 +1,7 @@
 # gray scale
 import cv2
 
-img = cv2.imread('img/dolphin.jpeg')
+img = cv2.imread('src/dolphin.jpeg')
 img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 img_hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
 

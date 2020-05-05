@@ -3,7 +3,7 @@
 import cv2
 import numpy as np
 
-img = cv2.imread('img/dolphin.jpeg')
+img = cv2.imread('src/dolphin.jpeg')
 # sobel filter
 img_sobel_x = cv2.Sobel(img, cv2.CV_32F, 1, 0, ksize=3)
 img_sobel_x = cv2.convertScaleAbs(img_sobel_x)

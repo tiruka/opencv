@@ -3,12 +3,12 @@ import os
 import sys
 import cv2
 
-video = cv2.VideoCapture('img/animation.mp4')
+video = cv2.VideoCapture('src/animation.mp4')
 if video.isOpened():
     ret, frame = video.read()
     h, w = frame.shape[:2]
     fourcc = cv2.VideoWriter_fourcc(*'XVID')
-    dst = cv2.VideoWriter('img/output.mp4', fourcc, 30., (w, h))
+    dst = cv2.VideoWriter('src/output.mp4', fourcc, 30., (w, h))
     while True:
         ret, frame = video.read()
         if not ret:

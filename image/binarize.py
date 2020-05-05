@@ -2,7 +2,7 @@
 import cv2
 import matplotlib.pyplot as plt
 
-img = cv2.imread('img/dolphin.jpeg', 0)
+img = cv2.imread('src/dolphin.jpeg', 0)
 
 threshold = 100
 ret, img_th = cv2.threshold(img, threshold, 255, cv2.THRESH_BINARY)

@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img = cv2.imread('img/dolphin.jpeg')
+img = cv2.imread('src/dolphin.jpeg')
 
 kernel = np.ones((3, 3)) / 9.
 img_ke = cv2.filter2D(img, -1, kernel)

@@ -1,7 +1,7 @@
 # show image and destroy it after entering any key.
 import cv2
 
-img = cv2.imread('img/dolphin.jpeg')
+img = cv2.imread('src/dolphin.jpeg')
 
 
 # resize

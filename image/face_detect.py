@@ -3,8 +3,8 @@ import cv2
 haar_file = 'etc/haarcascade_frontalface_default.xml'
 cascade = cv2.CascadeClassifier(haar_file)
 
-img = cv2.imread('img/gather.jpg')
-img_gray = cv2.imread('img/gather.jpg', 0)
+img = cv2.imread('src/gather.jpg')
+img_gray = cv2.imread('src/gather.jpg', 0)
 
 
 face = cascade.detectMultiScale(img_gray)
