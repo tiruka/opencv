@@ -1,6 +1,5 @@
 import cv2
 import numpy as np
-import matplotlib.pyplot as plt
 
 img = cv2.imread('img/dolphin.jpeg', 0)
 h, w = img.shape[:2]
